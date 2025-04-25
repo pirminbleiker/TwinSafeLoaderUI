@@ -23,3 +23,24 @@ _Boot/
 _CompileInfo/
 _Libraries/
 _ModuleInstall/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+.DS_Store
+
+# Electron
+dist/
+out/
+*.asar
+*.node
+electron-builder.yaml
+electron-builder.json
+electron-builder.json5
+
