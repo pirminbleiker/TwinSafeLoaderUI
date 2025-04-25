@@ -1,0 +1,163 @@
+.app-root {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.app-header {
+  background: #009639;
+  color: #fff;
+  padding: 12px 32px 12px 16px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  display: flex;
+  align-items: center;
+}
+.app-logo {
+  letter-spacing: 2px;
+}
+.app-title {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 20px;
+  letter-spacing: 0;
+  opacity: 0.8;
+}
+.app-main {
+  max-width: 1100px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 32px;
+}
+.app-footer {
+  margin-top: 36px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  padding: 12px;
+}
+.gateway-row, .user-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.device-table-title {
+  margin-bottom: 16px;
+  color: #009639;
+  font-weight: 700;
+}
+.device-table-wrapper {
+  overflow-x: auto;
+}
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.device-table th, .device-table td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+.status-box {
+  margin-top: 32px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  padding: 16px;
+  min-height: 60px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  color: #222;
+}
+.binfile-path {
+  font-size: 10px;
+  max-width: 120px;
+  word-break: break-all;
+  color: #888;
+  margin-top: 2px;
+}
+.scan-status {
+  margin-left: 10px;
+  font-weight: 500;
+  color: #888;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1.5px solid #009639;
+  background: #fff;
+  color: #009639;
+  transition: background 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn.disabled,
+.btn:disabled {
+  background: #eee !important;
+  color: #aaa !important;
+  border: 1.5px solid #ccc !important;
+  cursor: not-allowed !important;
+  opacity: 0.6;
+}
+
+.btn.success {
+  background: #009639 !important;
+  color: #fff !important;
+  border: 1.5px solid #009639 !important;
+}
+
+.btn.fail {
+  background: #d32f2f !important;
+  color: #fff !important;
+  border: 1.5px solid #d32f2f !important;
+}
+
+.btn.selected {
+  background: #009639 !important;
+  color: #fff !important;
+}
+
+.details-btn {
+  padding: 4px 10px;
+  border: 1px solid #009639;
+  background: #fff;
+  color: #009639;
+}
+
+.details-btn.open {
+  background: #eee;
+}
+
+.details-inputs {
+  margin-top: 7px;
+}
+
+.input.user-input,
+.input.pass-input {
+  width: 80px;
+  padding: 4px 7px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  margin-right: 6px;
+}
+
+.input.pass-input {
+  margin-right: 0;
+}
+
+.crc-cell {
+  font-family: monospace;
+  color: #333;
+  font-size: 13px;
+}
